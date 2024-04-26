@@ -27,11 +27,9 @@
                     <TextBlock Text="Login" FontSize="27" FontWeight="Bold" Margin="261,148,328,223" Grid.Column="7"/>
                     <TextBlock Text="Username:" FontSize="22" Margin="110,192,475,179" Grid.Column="7"/>
                     <TextBlock Text="Password:" FontSize="22" Margin="110,240,475,130" Grid.Column="7"/>
-                    <TextBlock Text="Email:" FontSize="22" Margin="110,285,475,86" Grid.Column="7"/>
                     <Image Margin="0,22,232,318" Source="/Image5.png" Stretch="Fill" Grid.Column="7" HorizontalAlignment="Right" Width="324"/>
                     <TextBox x:Name="UsernameTextBoxLogin" FontSize="20" Grid.Column="7" HorizontalAlignment="Left" Margin="259,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="29"/>
                     <PasswordBox x:Name="PasswordTextBoxLlogin" FontSize="20" Grid.Column="7" HorizontalAlignment="Left" Margin="259,243,0,0" VerticalAlignment="Top" Width="208" Height="29"/>
-                    <TextBox x:Name="EmailTextBoxLogin" FontSize="20" Grid.Column="7" HorizontalAlignment="Left" Margin="259,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="29" TextChanged="EmailTextBoxLogin_TextChanged"/>
                     <Button x:Name="ExitButtonLogin" Grid.Column="7" FontSize="20" FontWeight="Bold" Background="#FFE0CC3E" Foreground="#FF052D54" Content="Exit" HorizontalAlignment="Left" Margin="144,338,0,0" VerticalAlignment="Top" Height="38" Width="119">
                         <Button.Effect>
                             <DropShadowEffect/>
